@@ -39,3 +39,79 @@ text-align: center;
     border: 1px solid#d1e3f8;
     text-align: left;
 }
+
+.user-avatar{
+
+    font: size 30px;
+    background: white;
+    width:55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-details h3 {font-size: 18px; color:#2c3e50;}
+.user-details p {font-size: 14px; color:#e74c3c; margin: 4px 0; }
+
+.stats {display: flex; gap: 10px; margin-top: 5px;}
+.stats span {
+    font-size: 11px;
+    background: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: #7f8c8d;
+    border: 1px solid #eee;
+}
+
+.selection-area {
+    display: flex;
+    gap:  20px;
+    width:100%;
+    margin-top: 20px;
+}
+
+.action-box {
+    flex: 1;
+    background: #3498db;
+    color: white;
+    padding: 25px 15px;
+}
+
+.action-box:hover {
+background: #2980b9;
+transform: translate(-5px);
+}
+
+.action-box .icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #34495e;
+    font-size: 14px;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    border:2px solid #edf2f7;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+select:focus, input:focus {
+    border-color: #3498db;
+}
