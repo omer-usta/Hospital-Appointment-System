@@ -7,6 +7,8 @@ HTML: Used for page structure and content organization.
 
 CSS: Used for visual design and layout.
 
+JavaScript: Used to understand interaction logic, form validation, and dynamic data management.
+
 Key Notes:
 
 Development Process: This work is currently at a basic level. I aim to develop much more comprehensive and advanced versions as my learning journey progresses.
