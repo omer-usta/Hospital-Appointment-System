@@ -7,8 +7,6 @@ HTML: Used for page structure and content organization.
 
 CSS: Used for visual design and layout.
 
-SQL: Included at a basic level to understand data structures and logic.
-
 Key Notes:
 
 Development Process: This work is currently at a basic level. I aim to develop much more comprehensive and advanced versions as my learning journey progresses.
