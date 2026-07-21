@@ -70,3 +70,107 @@ nav li{
 .btn:hover{
     background-color: #005f8d;
 }
+
+.doctors{
+
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.doctor-container{
+
+    display: flex;;
+    justify-content:center;
+    gap:30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    width: 300px;
+    padding: 25px;
+    min-height: 150px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0,.15);
+
+    transition:0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.card .btn{
+    margin-top: auto;
+}
+
+.doctors h2{
+    margin-bottom: 30px;
+}
+
+.hero {
+    display: inline-block;
+}
+
+.services{
+    padding: 80px;
+    text-align: center;
+}
+
+.services h2{
+    margin-bottom:40px;
+}
+
+.service-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.service-card{
+    width: 300px;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+footer{
+    background-color: #0077b6;
+color:white;
+padding:40px 20px;
+margin-top:80px;
+}
+
+footer h2{
+
+    margin-bottom:20px;
+
+}
+
+footer p{
+
+    margin:10px 0;
+
+}
+
+footer hr{
+
+    width:100%;
+
+    margin: 25px auto;
+
+    border:1px solid rgba(255,255,255,.3);
+
+}
