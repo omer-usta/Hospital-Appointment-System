@@ -174,3 +174,45 @@ footer hr{
     border:1px solid rgba(255,255,255,.3);
 
 }
+
+.appointments-hero{
+
+    text-align:center;
+
+    padding:80px 20px;
+}
+
+
+.appointments-hero h2{
+
+    color:#0077b6
+
+    font-size:40px;
+
+    margin-bottom:20px;
+}
+
+.appointments-hero p{
+
+    font-size:18px;
+
+    color:#555;
+
+    margin-bottom:35px;
+}
+
+.upcoming-appointments,
+.past-appointments{
+
+    width: 80%;
+    margin: 70px auto;
+
+}
+
+.upcoming-appointments h2,
+.past-appointments h2{
+
+    color:#0077b6;
+    margin-bottom:30px;
+
+}
